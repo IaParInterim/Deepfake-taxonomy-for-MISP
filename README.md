@@ -34,6 +34,6 @@ Nous avons choisi une approche en axes indépendants :
 Chaque axe est indépendant, ce qui permet une combinaison flexible de tags
 
 ## Déroulement
-Nous avons tout d'abord effectué un état-de-l'art sur l'existant, celui-ci est disponible dans le projet : [état de l'art](https://github.com/IaParInterim/Deepfake-taxonomy-for-MISP/docs/etat-de-lart.md). Il regroupe nos recherches académiques sur les détections de deepfake et les taxonomies existantes.
+Nous avons tout d'abord effectué un état-de-l'art sur l'existant, celui-ci est disponible dans le projet : [état de l'art](https://github.com/IaParInterim/Deepfake-taxonomy-for-MISP/blob/main/docs/etat-de-lart.md). Il regroupe nos recherches académiques sur les détections de deepfake et les taxonomies existantes.
 
 Nous avons ensuite créé machinetag.json et nous l'avons testé via une instance MISP locale (sur Docker). Pour finir, nous avons créé une Galaxy deepfake.
