@@ -1,7 +1,7 @@
 {
   "name": "Deepfake Impact",
   "type": "deepfake-impact",
-  "description": "Detailed clusters on the societal, scientific and security impacts of deepfakes.",
+  "description": "Detailed clusters on the societal, scientific, legal, educational and security impacts of deepfakes.",
   "version": 1,
   "icon": "star",
   "authors": ["HOUVER Emma & TAFFOU Imen"],
@@ -100,6 +100,18 @@
         "target_sector": "Banking / FinTech / Secure Access",
         "impact_type": "Unauthorized Access & Financial Fraud",
         "consequence": "Critical Data Breach"
+      }
+    },
+    {
+    "value": "Academic & Educational Manipulation",
+    "uuid": "221c8252-70e1-4755-a5ed-ed1b6dc7c27a",
+    "description": "Misuse of synthetic media to falsify educational content or manipulate learning materials for propaganda.",
+    "meta": {
+      "source": "De Jong et al. (2025) / Polidoro (2025)",
+      "impact_level": "Medium",
+      "target_sector": "Education / Universities / Online Learning",
+      "impact_type": "Pedagogical Distorsion",
+      "consequence": "Misinformation of Students / Loss of Academic Authority"
       }
     }
   ]
