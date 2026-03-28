@@ -113,6 +113,28 @@
       "impact_type": "Pedagogical Distorsion",
       "consequence": "Misinformation of Students / Loss of Academic Authority"
       }
+    },
+    {
+      "value": "Satirical & Epistemic Distorsion",
+      "uuid": "37513ad9-08a8-45b1-a8b5-5b5f6cdeee02",
+      "description": "Creation of parodic media that blurs the line between humor and reality, leading to accidental misinformation.",
+      "meta": {
+        "source": "Polidoro (2025)",
+        "impact_level": "Medium",
+        "target_sector": "General Public / Media",
+        "impact_type": "Misinformation / Trivialization"
+      }
+    },
+    {
+      "value": "Weaponized Humor & Targeted Harassment",
+      "uuid": "465c31a2-8939-458a-84b5-840fc144ea05",
+      "description": "Use of 'humorous' deepfakes as a tool for cyber-bullying, gaslighting, or discrediting individuals through public humiliation.",
+      "meta": {
+        "source": "Lee et al. (2023)",
+        "impact_level": "High",
+        "target_sector": "Private Individuals / Public Figures",
+        "impact_type": "Digital Violence / Reputation Damage"
+      }
     }
   ]
 }
