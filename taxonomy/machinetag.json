@@ -57,7 +57,7 @@
         {
           "value": "attribute-manipulation",
           "expanded": "Facial Attribute Manipulation",
-          "description": "Targeted modification of age, gender, expression, or skin tone. Source : Khan, I. et al."
+          "description": "Targeted modification of age, gender, expression, or skin tone. Source : Khan, I. et al. (2025)"
         },
         {
           "value": "vae-generation",
