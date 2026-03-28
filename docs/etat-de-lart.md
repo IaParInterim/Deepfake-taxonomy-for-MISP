@@ -340,8 +340,8 @@ Cette approche est :
 | Polidoro, P. (2025). *Two Proposals for a Semiotic Taxonomy of Fake News and Deepfakes*. Actes Sémiotiques, n°133, Université de Limoges. | https://www.unilim.fr/actes-semiotiques/9095 | Définition + Intention |
 | Gambín et al. (2024). *Deepfakes: current and future trends*. Artificial Intelligence Review, 57(3). | https://link.springer.com/article/10.1007/s10462-023-10679-x | Génération |
 | Sandotra, N. et al. (2024). *A comprehensive evaluation of feature-based AI techniques for deepfake detection*. ResearchGate. | https://www.researchgate.net/publication/376519032 | Détection |
-| Çiftçi, U.A., Demir, I., Yin, L. (2024). *Deepfake source detection in a heart beat*. The Visual Computer, 40(4). | — (cité dans Springer, 2025) | Détection biologique |
-| Tolosana et al. (2020). *Deepfakes and Beyond: A Survey of Face Manipulation and Fake Detection*. Information Fusion, 64. | — | Génération + Détection |
+| Çiftçi, U.A., Demir, I., Yin, L. (2024). *Deepfake source detection in a heart beat*. The Visual Computer, 40(4). | https://link.springer.com/article/10.1007/s00371-023-029 | Détection biologique |
+| Tolosana et al. (2020). *Deepfakes and Beyond: A Survey of Face Manipulation and Fake Detection*. Information Fusion, 64. | https://arxiv.org/abs/2001.00179 | Génération + Détection |
 | *A Comprehensive Review of Deepfake Detection Methods and Challenges in Digital Forensics*. ResearchGate, 2025. | https://www.researchgate.net/publication/391325974 | Détection + Forensique |
 | *Deepfake Media Forensics: Status and Future Challenges*. MDPI Journal of Imaging, 2025. | https://www.mdpi.com/2313-433X/11/3/73 | Forensique |
 | *Deepfakes, Phrenology, Surveillance and More: A Taxonomy of AI*. SciSpace. | https://scispace.com/pdf/deepfakes-phrenology-surveillance-and-more-a-taxonomy-of-ai-4crwnkiq1b.pdf | Impact + Vie privée |
