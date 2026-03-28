@@ -9,7 +9,7 @@
     {
       "value": "Scientific Integrity Breach",
       "uuid": "d46b970a-44ff-43c4-abac-fb825a6439e4",
-      "description": "Creation of false academic evidence, falsify specimen imagery, or impersonate experts to validate misinformation. This targets the core of scientific trust.",
+      "description": "Creation of false academic evidence, falsify specimen imagery, or impersonate experts to validate misinformation.",
       "meta": {
         "source": "Oxford Academic (2024) / De Jong et al. (2025)",
         "impact_level": "High",
@@ -57,7 +57,7 @@
     {
       "value": "Professional Identity Extortion",
       "uuid": "575b5b49-b139-41c6-ade9-74476d98ba3f",
-      "description": "Targeted attacks using voice cloning or video synthesis to impersonate executives or experts. Aimed at financial extortion, sensitive data theft, or discrediting professional reputation.",
+      "description": "Targeted attacks using voice cloning or video synthesis to impersonate executives or experts.",
       "meta": {
         "source": "Sandotra et al. (2025) / Unilim",
         "impact_level": "High",
@@ -69,7 +69,7 @@
     {
       "value": "Non-Consensual Intimate Imagery",
       "uuid": "6db8e7d6-bb64-41b5-87f1-49c00169ac0e",
-      "description": "Creation of sexually explicit or degrading synthetic content without consent. Used for targeted harassment, revenge, or psychological coercion of private individuals.",
+      "description": "Creation of sexually explicit or degrading synthetic content without consent. Used for targeted harassment, revenge or psychological coercion of private individuals.",
       "meta": {
         "source": "Polidoro (2025) / Lee et al. (2023)",
         "impact_level": "Critical",
@@ -81,7 +81,7 @@
     {
       "value": "Election Sabotage & Democratic Interference",
       "uuid": "ca016bc9-9fb3-45d7-9f82-4a745dd37898",
-      "description": "Deployment of deepfakes during electoral periods to influence voter behavior, discredit candidates, or spread false voting instructions.",
+      "description": "Deployment of deepfakes during electoral periods to influence voter behavior, discredit candidates or spread false voting instructions.",
       "meta": {
         "source": "Polidoro (2025)",
         "impact_level": "Critical",
