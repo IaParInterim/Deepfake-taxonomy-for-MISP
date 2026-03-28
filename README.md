@@ -12,6 +12,7 @@ L'objectif de notre **taxonomie** est de décrire complètement un deepfake. Les
 - la **création** → comment il est fabriqué (faceswap, ...)
 - l'**intention** → pourquoi il existe (se moquer, calomnier, nuire,...)
 - l'**impact** → conséquences (faire perdre des contrats, isoler, se venger, ...)
+
 Chaque axe est indépendant, ce qui permet une combinaison flexible de tags
 
 L'objectif de notre **galaxie** est d'apporter du contexte sur l'impact du deepfake, en prennant appui sur des études effectuées à ce sujet.
