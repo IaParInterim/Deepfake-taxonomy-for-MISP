@@ -1,0 +1,11 @@
+{
+  "name": "Deepfake Impact",
+  "type": "deepfake-impact",
+  "description": "Detailed clusters on the societal, scientific, legal, educational and security impacts of deepfakes.",
+  "version": 1,
+  "icon": "star",
+  "authors": [
+    "HOUVER Emma & TAFFOU Imen"
+  ],
+  "uuid": "dd2c4bab-8f3b-4f1b-9057-bb4239de7111"
+}
