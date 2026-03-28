@@ -10,7 +10,7 @@ Notre étude couvre trois dimensions complémentaires :
 - la **détection** : comment les identifier, avec l'inspection visuelle manuelle jusqu'aux approches par apprentissage automatique
 - l'**impact** et l'**intention** : les usages malveillants documentés, leurs cibles et leurs conséquences
 
-Pour chaque dimension, nous identifions les catégories pertinentes qui seront encodées dans les `machinetag.json` de notre propre taxonomie.
+Après cet état de l'art, nous identifierons les catégories pertinentes et nous les encoderons dans `machinetag.json`, notre taxonomie.
 
 ## 2. Définitions et terminologie
 
@@ -39,8 +39,6 @@ La distinction entre *production* (créer une image de toutes pièces) et *alté
 
 La seconde contribution taxonomique de [Polidoro]((https://www.unilim.fr/actes-semiotiques/9095)) (2025) introduit la notion de *régime de croyance* : un deepfake n'a pas nécessairement pour but de tromper. L'auteur rappelle, à travers les exemples de Tom Cruise dansant en peignoir ou de la chanteuse Dalida interviewée en 2022 (alors qu'elle est décédée en 1987), que certains usages des deepfakes ont une visée purement ludique ou pédagogique, et que toute taxonomie doit rendre compte de toutes ces intentions.
 
-Pour la taxonomie MISP, cela justifie d'inclure des valeurs comme `satire`, `docudrama`, ou `legitimate-entertainment`, en plus des valeurs malveillantes.
-
 ## 3. Techniques de génération
 
 ### 3.1 L'ère des GANs
@@ -63,7 +61,7 @@ L'apport technique majeur des modèles de diffusion pour notre projet est le sui
 
 ### 3.3 Modalités : image, vidéo, son, ...
 
-L'étude de Croitoru et al.](https://arxiv.org/abs/2411.19537) (2024) couvre l'ensemble des types de médias deepfake : image, vidéo, son, texte, contenu multimodal (audio-visuel), et identifie différents types de deepfakes selon la procédure utilisée pour altérer ou générer le contenu faux.
+L'étude de [Croitoru et al.](https://arxiv.org/abs/2411.19537) (2024) couvre l'ensemble des types de médias deepfake : image, vidéo, son, texte, contenu multimodal (audio-visuel), et identifie différents types de deepfakes selon la procédure utilisée pour altérer ou générer le contenu faux.
 
 Le contenu multimodal représente la frontière la plus avancée : une vidéo dont à la fois l'image et le son ont été manipulés, ou un deepfake couplé à un texte synthétique. Les deepfakes synthétiques ont ainsi transcendé la simple manipulation visuelle pour englober les modalités textuelles et audio, ce qui élargit considérablement leur potentiel de mauvais usage.
 
@@ -255,7 +253,7 @@ DISARM est un framework puissant, mais il opère à un niveau d'abstraction stra
 
 Concrètement, la technique DISARM `T0019 — Fabricate content` couvre toute fabrication de contenu, qu'il s'agisse d'un texte rédigé par un humain, d'une image Photoshoppée ou d'un deepfake généré par un modèle de diffusion. DISARM ne discrimine pas entre ces cas, alors que du point de vue forensic et de la réponse à incident, la différence est fondamentale.
 
-#### Notre apport : la couche forensique et technique
+#### Notre apport : la couche forensic et technique
 
 Notre galaxie deepfake joue le rôle d'une couche de granularité technique qui s'articule sous DISARM, de la même manière que les sous-techniques ATT&CK (ex. `T1566.001 — Spearphishing Attachment`) affinent une technique parent (ex. `T1566 — Phishing`).
 
@@ -330,7 +328,43 @@ Cette approche est :
 - **compatible avec MISP** : un objet MISP peut recevoir des tags de plusieurs axes
 - **extensible** : chaque axe peut évoluer indépendamment au fil des avancées technologiques
 
-## 8. Références
+## 8. La galaxie : recenser les incidents malveillants
+
+### 8.1 But 
+
+Une galaxie MISP est par nature un outil de CTI. Son rôle est de documenter des menaces, des incidents et des patterns d'attaque, donc pas des usages légitimes. Ce principe guide un choix de périmètre important pour notre galaxie deepfake.
+
+Notre taxonomie devra inclure des valeurs comme `satire-parody`, `educational-research` ou `artistic-expression` dans le prédicat `intent` : un analyste doit pouvoir classifier tout type de deepfake rencontré, y compris les non-malveillants, afin d'écarter les faux positifs et de documenter l'ensemble du spectre.
+
+La galaxie, en revanche, ne recense que les incidents à caractère négatif : deepfakes utilisés à des fins de fraude, de désinformation, de harcèlement, d'usurpation d'identité ou d'atteinte à la réputation. Les usages artistiques, pédagogiques ou satiriques n'y ont pas leur place, ils ne constituent pas des menaces à partager au sein d'une communauté CTI.
+
+En résumé : la taxonomie décrit tous les deepfakes. La galaxie recense uniquement ceux qui constituent une menace.
+
+### 8.2 Articulation galaxie & taxonomie dans MISP
+
+La galaxie et la taxonomie sont deux objets MISP distincts mais complémentaires. Voici un exemple :
+
+```
+Événement MISP - "Deepfake CEO fraud, Arup, Hong Kong (2024)"
+
+- Tags (taxonomie)
+      deepfake:generation="voice-cloning"
+      deepfake:generation="multimodal"
+      deepfake:detection="multimodal-analysis"
+      deepfake:intent="malicious-deception"
+      deepfake:impact="identity-theft"
+
+- Galaxie (cluster fraud - rattachement à un incident connu)
+      → "Professional Identity Extortion"
+
+- Galaxie DISARM (niveau campagne)
+      → "T0087 - Develop Video-Based Content"
+      → "T0021 - Impersonate existing narrative"
+```
+
+Les tags décrivent les caractéristiques techniques du deepfake. La galaxie rattache l'événement à un incident documenté, permettant de corréler plusieurs événements MISP entre eux et de construire une base de connaissance collective sur les deepfakes malveillants.
+
+## 9. Références
 
 ### Articles académiques
 
@@ -367,7 +401,7 @@ Cette approche est :
 | Hazardous Substances | https://github.com/Lise-Lebrun/MISP_Hazardous_Substances |
 | Cloud Security Threats Galaxy | https://github.com/Dyslate/MIPS-CloudSecurityThreatsGalaxy |
 
-## 9. Méthode de travail
+## 10. Méthode de travail
 #### Étape 1 ─ Recherche bibliographique
   └─ lecture des articles listés
   └─ exploration des taxonomies MISP existantes
@@ -383,5 +417,7 @@ Cette approche est :
 
 #### Étape 4 ─ Enrichissement par IA
   └─ enrichissement des paragraphes (Claude, Gemini, ChatGPT)
+
+#### Étape 5 ─ Relecture
   └─ relecture manuelle de chaque ajout
   └─ ajout des liens des sources à la main

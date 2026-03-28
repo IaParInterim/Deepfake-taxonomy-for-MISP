@@ -175,4 +175,4 @@ galaxy:DISARM="T0019 — Fabricate content"
 
 ## En résumé
 
-Les quatre prédicats `generation`, `detection`, `intent` et `impact` couvrent les trois cas sans ambiguïté majeure. La valeur `multimodal` du prédicat `generation` est indispensable — le cas Arup ne peut pas être décrit sans elle. Le prédicat `detection` est le plus riche et le plus opérationnel : ses dix valeurs couvrent toutes les méthodes d'analyse rencontrées dans la littérature.
+Les quatre prédicats `generation`, `detection`, `intent` et `impact` couvrent les trois cas sans ambiguïté majeure. La valeur `multimodal` du prédicat `generation` est indispensable, le cas Arup ne peut pas être décrit sans elle. Le prédicat `detection` est le plus riche et le plus opérationnel : ses dix valeurs couvrent toutes les méthodes d'analyse rencontrées dans la littérature.
