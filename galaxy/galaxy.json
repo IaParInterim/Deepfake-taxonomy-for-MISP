@@ -1,0 +1,106 @@
+{
+  "name": "Deepfake Impact",
+  "type": "deepfake-impact",
+  "description": "Detailed clusters on the societal, scientific and security impacts of deepfakes.",
+  "version": 1,
+  "icon": "star",
+  "authors": ["HOUVER Emma & TAFFOU Imen"],
+  "values": [
+    {
+      "value": "Scientific Integrity Breach",
+      "uuid": "d46b970a-44ff-43c4-abac-fb825a6439e4",
+      "description": "Creation of false academic evidence, falsify specimen imagery, or impersonate experts to validate misinformation. This targets the core of scientific trust.",
+      "meta": {
+        "source": "Oxford Academic (2024) / De Jong et al. (2025)",
+        "impact_level": "High",
+        "target_sector": "Science / Research / Academia",
+        "impact_type": "Evidence Falsification",
+        "consequence": "Corruption of Peer-Review Systems"
+      }
+    },
+    {
+      "value": "Forensic Evidence Falsification",
+      "uuid": "fafeedee-2f3e-4b41-b457-696228b6b485",
+      "description": "Introduction of synthetic audio or video as legal evidence to mislead judicial proceedings.",
+      "meta": {
+        "source": "Oxford Academic (2024) / Polidoro (2025)",
+        "impact_level": "Critical",
+        "target_sector": "Justice / Legal Systems / Law Enforcement",
+        "impact_type": "Judicial Miscarriage",
+        "consequence": "Wrongful Convictions / Legal System Paralysis"
+      }
+    },
+    {
+      "value": "Biometric Surveillance & AI Phrenology",
+      "uuid": "a3ca1bc5-0ee7-4662-8cd4-057887508082",
+      "description": "Misuse of AI to track, classify, or profile individuals based on facial features, perceived emotions, or ethnicity. Includes 'AI Phrenology'.",
+      "meta": {
+        "source": "SciSpace (2023) / Lee et al. (2023)",
+        "impact_level": "Critical",
+        "target_sector": "General Population / Minorities",
+        "impact_type": "Privacy & Human Rights Violation",
+        "consequence": "Automated Discrimination"
+      }
+    },
+    {
+      "value": "Institutional Trust Erosion & Liar's Dividend",
+      "uuid": "e358fd39-70ce-4b23-a8e6-e5da0a2f1129",
+      "description": "Strategic destabilization of the 'symbolic contract' between citizens and institutions. Includes the 'Liar's Dividend' effect.",
+      "meta": {
+        "source": "Polidoro - Unilim (2025) / Oxford Academic",
+        "impact_level": "Critical",
+        "target_sector": "State / Justice / Police",
+        "impact_type": "Democratic & Epistemic Undermining",
+        "consequence": "Social Instability"
+      }
+    },
+    {
+      "value": "Professional Identity Extortion",
+      "uuid": "575b5b49-b139-41c6-ade9-74476d98ba3f",
+      "description": "Targeted attacks using voice cloning or video synthesis to impersonate executives or experts. Aimed at financial extortion, sensitive data theft, or discrediting professional reputation.",
+      "meta": {
+        "source": "Sandotra et al. (2025) / Unilim",
+        "impact_level": "High",
+        "target_sector": "Corporations / Public Figures",
+        "impact_type": "Financial Loss & Reputational Damage",
+        "consequence": "Organizational Destabilization"
+      }
+    },
+    {
+      "value": "Non-Consensual Intimate Imagery",
+      "uuid": "6db8e7d6-bb64-41b5-87f1-49c00169ac0e",
+      "description": "Creation of sexually explicit or degrading synthetic content without consent. Used for targeted harassment, revenge, or psychological coercion of private individuals.",
+      "meta": {
+        "source": "Polidoro (2025) / Lee et al. (2023)",
+        "impact_level": "Critical",
+        "target_sector": "Private Individuals",
+        "impact_type": "Targeted Harassment",
+        "consequence": "Psychological Trauma"
+      }
+    },
+    {
+      "value": "Election Sabotage & Democratic Interference",
+      "uuid": "ca016bc9-9fb3-45d7-9f82-4a745dd37898",
+      "description": "Deployment of deepfakes during electoral periods to influence voter behavior, discredit candidates, or spread false voting instructions.",
+      "meta": {
+        "source": "Polidoro (2025)",
+        "impact_level": "Critical",
+        "target_sector": "Electoral Systems / Political Candidates",
+        "impact_type": "Democratic Interference",
+        "consequence": "Voter Disenfranchisement / Election Invalidity"
+      }
+    },
+    {
+      "value": "Biometric Authentication Bypass",
+      "uuid": "9f9d1e92-0caf-4769-84bc-e70a3194cda0",
+      "description": "Use of high-fidelity synthetic media to deceive biometric security systems.",
+      "meta": {
+        "source": "Sandotra et al. (2025) / Khan et al. (2025)",
+        "impact_level": "High",
+        "target_sector": "Banking / FinTech / Secure Access",
+        "impact_type": "Unauthorized Access & Financial Fraud",
+        "consequence": "Critical Data Breach"
+      }
+    }
+  ]
+}
