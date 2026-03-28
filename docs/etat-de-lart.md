@@ -69,7 +69,7 @@ Le contenu multimodal représente la frontière la plus avancée : une vidéo do
 
 **Tableau récapitulatif des techniques par modalité :**
 
-| Modalité | Techniques principales | Exemple de tag |
+| Modalité | Techniques principales | Exemple de tag possible |
 |---|---|---|
 | Vidéo | Face-swap, face reenactment, lip-sync | `face-swap`, `face-reenactment`, `lip-sync` |
 | Image | Full synthesis, attribute alteration | `full-body-synthesis`, `attribute-alteration` |
@@ -122,7 +122,7 @@ La portée de l'analyse forensic dans le domaine des deepfakes s'étend au-delà
 
 L'étude de [Amerini et al.](https://www.researchgate.net/publication/389456404_Deepfake_Media_Forensics_Status_and_Future_Challenges) (2025) structure les approches de détection en trois grandes familles :
 
-| Famille | Description | Exemple de tag |
+| Famille | Description | Exemple de tag possible |
 |---|---|---|
 | **Spatial-based** | Analyse des anomalies pixel par pixel dans le domaine spatial | `spatial-analysis` |
 | **Temporal-based** | Analyse du flux vidéo, incohérences inter-frames, scintillement | `temporal-analysis` |
@@ -237,7 +237,7 @@ Les phases tactiques du DISARM Red Framework couvrent l'ensemble du cycle de vie
 
 Plusieurs techniques DISARM correspondent précisément à des usages de deepfakes. Le tableau suivant établit la correspondance entre les TTPs DISARM et des exemples de tags possible :
 
-| Technique DISARM | ID | Description | Exemple de tag cohérent |
+| Technique DISARM | ID | Description | Exemple de tag cohérent possible |
 |---|---|---|---|
 | Develop Text-Based Content | T0085 | Création de contenus textuels faux ou trompeurs | `deepfake-generation:technique="llm-generation"` |
 | Create Inauthentic Video Content | T0087 | Production de vidéos synthétiques | `deepfake-generation:media-type="video"` |
@@ -284,7 +284,7 @@ galaxy:DISARM — Techniques = "T0019 — Fabricate content"
 galaxy:DISARM — Techniques = "T0002 — Facilitate State Propaganda"
 ```
 
-**Via un exemple de Galaxie Deepfake (niveau artéfact) :**
+**Via un exemple possible de Galaxie Deepfake (niveau artéfact) :**
 ```
 deepfake-generation:technique="face-reenactment"
 deepfake-generation:media-type="video"
@@ -346,6 +346,7 @@ Cette approche est :
 | *Deepfake Media Forensics: Status and Future Challenges*. MDPI Journal of Imaging, 2025. | https://www.mdpi.com/2313-433X/11/3/73 | Forensique |
 | *Deepfakes, Phrenology, Surveillance and More: A Taxonomy of AI*. SciSpace. | https://scispace.com/pdf/deepfakes-phrenology-surveillance-and-more-a-taxonomy-of-ai-4crwnkiq1b.pdf | Impact + Vie privée |
 | *Deepfakes and Insect Taxonomy: Problematic Implications*. American Entomologist, Oxford Academic, 71(1), 2024. | https://academic.oup.com/ae/article-abstract/71/1/20/8116419 | Impact scientifique |
+| Khan, I. et al. (2025). *A Comprehensive Survey of DeepFake Generation and Detection Techniques in Audio-Visual Media*. ICCK Journal of Image Analysis and Processing, 1(2). | https://www.icck.org/article/abs/jiap.2025.431672 | Génération + Détection |
 
 ### Ressources en ligne
 
