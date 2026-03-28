@@ -97,7 +97,7 @@
       "meta": {
         "source": "Sandotra et al. (2025) / Khan et al. (2025)",
         "impact_level": "High",
-        "target_sector": "Banking / FinTech / Secure Access",
+        "target_sector": "Banking / Secure Access",
         "impact_type": "Unauthorized Access & Financial Fraud",
         "consequence": "Critical Data Breach"
       }
