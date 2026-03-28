@@ -40,6 +40,48 @@ cp template.env .env
 docker compose up -d
 ```
 
+### Installer la taxonomie
+
+```bash
+ # Copier la taxonomie dans MISP
+docker cp taxonomy/taxonomy.json misp-docker-misp-core-1:/tmp/taxonomy.json
+
+# Importer via l'API
+curl -X POST https://localhost/taxonomies/import \
+  -H "Authorization: VOTRE_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json" \
+  -d "@/tmp/taxonomy.json" \
+  -k
+
+# Lister les taxonomies pour trouver l'ID de deepfake
+curl -X GET https://localhost/taxonomies.json \
+  -H "Authorization: VOTRE_API_KEY" \
+  -H "Accept: application/json" \
+  -k
+
+# Activer la taxonomie
+curl -X POST https://localhost/taxonomies/enable/ID_TROUVE \
+  -H "Authorization: VOTRE_API_KEY" \
+  -H "Accept: application/json" \
+  -k
+```
+
+### Installer la galaxy
+
+```bash
+# Copier les fichiers de la galaxie
+docker cp galaxy/clusters/deepfake.json misp-docker-misp-core-1:/var/www/MISP/app/files/misp-galaxy/clusters/deepfake.json
+docker cp galaxy/galaxies/deepfake.json misp-docker-misp-core-1:/var/www/MISP/app/files/misp-galaxy/galaxies/deepfake.json
+
+# Mettre à jour les galaxies via l'API
+curl -X POST https://localhost/galaxies/update \
+  -H "Authorization: VOTRE_API_KEY" \
+  -H "Accept: application/json" \
+  -k
+```
+
+
 ## Déroulement
 Nous avons tout d'abord effectué un état-de-l'art sur l'existant, celui-ci est disponible dans le projet : [état de l'art](https://github.com/IaParInterim/Deepfake-taxonomy-for-MISP/blob/main/docs/etat-de-lart.md). Il regroupe nos recherches académiques sur les détections de deepfake et les taxonomies existantes.
 
