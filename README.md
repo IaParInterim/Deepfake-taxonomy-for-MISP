@@ -37,9 +37,6 @@ _Comment structurer une taxonomie cohérente et une galaxie riche ?_
 git clone https://github.com/MISP/misp-docker
 cd misp-docker
 docker compose up -d
-
-# Python pour la génération d'UUID
-python3 -c "import uuid; print(uuid.uuid4())"
 ```
 
 ## Déroulement
