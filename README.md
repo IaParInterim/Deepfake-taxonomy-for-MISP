@@ -36,6 +36,7 @@ _Comment structurer une taxonomie cohérente et une galaxie riche ?_
 # MISP en local (Docker)
 git clone https://github.com/MISP/misp-docker
 cd misp-docker
+cp template.env .env
 docker compose up -d
 ```
 
