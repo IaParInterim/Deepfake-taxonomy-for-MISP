@@ -9,7 +9,7 @@ Notre travail fusionne deux approches existantes en proposant :
 ## Objectif
 L'objectif de notre **taxonomie** est de décrire complètement un deepfake. Les contenus traités seront : 
 - la **détection** → comment on le détecte (yeux, doigts, ...)
-- la **création** → comment il est fabriqué (faceswap, ...)
+- la **génération** → comment il est fabriqué (faceswap, ...)
 - l'**intention** → pourquoi il existe (se moquer, calomnier, nuire,...)
 - l'**impact** → conséquences (faire perdre des contrats, isoler, se venger, ...)
 
