@@ -43,6 +43,13 @@ docker compose up -d
 ### Installer la taxonomie
 
 ```bash
+git clone https://github.com/IaParInterim/Deepfake-taxonomy-for-MISP
+cd Deepfake-taxonomy-for-MISP
+```
+
+### Installer la taxonomie
+
+```bash
  # Copier la taxonomie dans MISP
 docker cp taxonomy/taxonomy.json misp-docker-misp-core-1:/tmp/taxonomy.json
 
