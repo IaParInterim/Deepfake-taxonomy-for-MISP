@@ -85,7 +85,7 @@ curl -X POST https://localhost/galaxies/update \
 ## Déroulement
 Nous avons tout d'abord effectué un état-de-l'art sur l'existant, celui-ci est disponible dans le projet : [état de l'art](https://github.com/IaParInterim/Deepfake-taxonomy-for-MISP/blob/main/docs/etat-de-lart.md). Il regroupe nos recherches académiques sur les détections de deepfake et les taxonomies existantes.
 
-Nous avons ensuite créé machinetag.json et nous l'avons testé via une instance MISP locale (sur Docker). Pour finir, nous avons créé une galaxie deepfake. Les traductions des descriptions techniques vers l'anglais ont été affinées à l'aide d'outils d'IA pour garantir une terminologie internationale et une meilleure lisibilité pour les analystes.
+Nous avons ensuite créé taxonomy.json et nous l'avons testé via une instance MISP locale (sur Docker). Pour finir, nous avons créé une galaxie deepfake. Les traductions des descriptions techniques vers l'anglais ont été affinées à l'aide d'outils d'IA pour garantir une terminologie internationale et une meilleure lisibilité pour les analystes.
 
 ## Lien avec DISARM
 
