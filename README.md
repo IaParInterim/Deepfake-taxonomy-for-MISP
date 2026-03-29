@@ -40,7 +40,7 @@ cp template.env .env
 docker compose up -d
 ```
 
-### Installer la taxonomie
+### Cloner ce dépôt
 
 ```bash
 git clone https://github.com/IaParInterim/Deepfake-taxonomy-for-MISP
