@@ -53,6 +53,13 @@ deepfake:impact="large-scale-narrative-manipulation"
 # → diffusion virale sur réseaux sociaux et site TV piraté
 ```
 ```
+# notre galaxie
+galaxy:deepfake-impact="Institutional Trust Erosion & Liar's Dividend"
+# → tentative de saper la légitimité du gouvernement ukrainien en période de guerre
+galaxy:deepfake-impact="Election Sabotage & Democratic Interference"
+# → influence sur l'opinion publique et le moral des troupes dans un contexte politique critique
+```
+```
 # Galaxie DISARM (complément au niveau campagne)
 galaxy:DISARM="T0019 — Fabricate content"
 galaxy:DISARM="T0002 — Facilitate State Propaganda"
@@ -107,6 +114,13 @@ deepfake:impact="identity-theft"
 # → usurpation de l'identité du CFO et de collègues réels 
 ```
 ```
+# notre galaxie
+galaxy:deepfake-impact="Professional Identity Extortion"
+# → usurpation du CFO et de collègues via voice cloning et face reenactment, perte d'argent
+galaxy:deepfake-impact="Biometric Authentication Bypass"
+# → contournement de la reconnaissance visuelle et vocale humaine lors de la visioconférence
+```
+```
 # Galaxie DISARM (complément au niveau campagne)
 galaxy:DISARM="T0087 — Create Inauthentic Video Content"
 galaxy:DISARM="T0021 — Impersonate existing narrative"
@@ -157,6 +171,13 @@ deepfake:impact="identity-theft"
 # → usurpation de la voix et de l'identité d'un individu privé 
 deepfake:impact="institutional-erosion"
 # → atteinte à la confiance envers la direction de l'établissement
+```
+```
+# notre galaxie
+galaxy:deepfake-impact="Weaponized Humor & Targeted Harassment"
+# → attaque personnalisée visant à détruire la réputation professionnelle du proviseur
+galaxy:deepfake-impact="Institutional Trust Erosion & Liar's Dividend"
+# → une partie du public a continué à croire au clip après la révélation
 ```
 ```
 # Galaxie DISARM (complément au niveau campagne)
