@@ -10,7 +10,7 @@ Notre travail fusionne deux approches existantes en proposant :
 L'objectif de notre **taxonomie** est de décrire complètement un deepfake. Les contenus traités seront : 
 - la **détection** → comment on le détecte (yeux, doigts, ...)
 - la **génération** → comment il est fabriqué (faceswap, ...)
-- l'**intention** → pourquoi il existe (se moquer, calomnier, nuire,...)
+- l'**intention** → pourquoi il existe (se moquer, calomnier, nuire, ...)
 - l'**impact** → conséquences (faire perdre des contrats, isoler, se venger, ...)
 
 Chaque axe est indépendant, ce qui permet une combinaison flexible de tags
@@ -43,7 +43,7 @@ docker compose up -d
 ### Cloner ce dépôt
 
 ```bash
-git clone https://github.com/IaParInterim/Deepfake-taxonomy-for-MISP
+git clone https://github.com/imentaf/Deepfake-taxonomy-for-MISP
 cd Deepfake-taxonomy-for-MISP
 ```
 
